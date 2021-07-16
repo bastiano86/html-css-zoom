@@ -1,0 +1,25 @@
+/* Reset */
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+header {
+  display: flex;
+}
+.btn {
+  font-size: 1em;
+  color: white;
+  background-color: grey;
+  padding: 10px 5px;
+  display: block;
+  border-radius:10px;
+}
+
+i {
+  font-size: 10px;
+  color: white;
+}
