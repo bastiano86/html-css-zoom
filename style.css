@@ -6,20 +6,27 @@
 }
 body {
   background-color: black;
+  font-family: arial;
 }
-header {
-  display: flex;
-}
+/* Bottoni */
 .btn {
-  font-size: 1em;
-  color: white;
-  background-color: grey;
-  padding: 10px 5px;
+  background-color: lightgrey;
+  color: gray;
+  font-size: 0.8em;
+  padding: 10px 10px;
   display: block;
   border-radius:10px;
+  margin-left: 3px;
+  flex: end;
+  transition: 0.3s;
 }
-
-i {
-  font-size: 10px;
+.btn:hover {
   color: white;
+  background-color: grey;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
 }
